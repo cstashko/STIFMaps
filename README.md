@@ -10,4 +10,6 @@ To reproduce manuscript results, the Jupyter notebook used for building the neur
 
 25 completed models are available at https://data.mendeley.com/datasets/vw2bb5jy99/2 via 'trained_models' and output plots can be found in the 'output' directory.
 
+Typical install time to create the conda environment is about 15 minutes. The run time to reproduce the network training should take several hours.
+
 Please direct any questions to cstashko@berkeley.edu
