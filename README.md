@@ -2,12 +2,12 @@
 
 ## Contents
 
--[Overview](#overview)
--[Repo Contents](#repo-contents)
--[System Requirements](#system-requirements)
--[Installation Guide](#installation-guide)
--[Reproducing Manuscript Results](#reproducing-manuscript-results)
--[License](./LICENSE)
+-[Overview](#overview)  
+-[Repo Contents](#repo-contents)  
+-[System Requirements](#system-requirements)  
+-[Installation Guide](#installation-guide)  
+-[Reproducing Manuscript Results](#reproducing-manuscript-results)  
+-[License](./LICENSE)  
 
 # Overview
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
