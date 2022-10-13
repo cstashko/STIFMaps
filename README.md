@@ -15,6 +15,16 @@ spatial mechanical heterogeneity and tension-dependent activation of an epitheli
 to mesenchymal transition within human breast cancers"
 
 # Repo Contents
+-[env.yml](./env.yml): yml file for creating the conda environment to run the STIFMaps code out of a Jupyter notebook  
+-[network_training.ipynb](./network_training.ipynb): Jupyter notebook for training the model presented in the manuscript  
+-[stiffnesses.csv](./stiffnesses.csv): The table of positional stiffness values used for model training  
+-[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
+
+Additional data is available via https://data.mendeley.com/datasets/vw2bb5jy99/2
+-[raw_squares]: The images used for training the neural networks  
+-[trained_models]: The completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
+-[output]: Statistics regarding the training and accuracy for the trained models  
+
 
 # System Requirements
 
