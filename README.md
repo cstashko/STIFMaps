@@ -7,7 +7,8 @@
 -[System Requirements](#system-requirements)  
 -[Installation Guide](#installation-guide)  
 -[Reproducing Manuscript Results](#reproducing-manuscript-results)  
--[License](./LICENSE)  
+-[License](#license)  
+-[Contact](#contact)  
 
 # Overview
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
@@ -20,10 +21,10 @@ to mesenchymal transition within human breast cancers"
 -[stiffnesses.csv](./stiffnesses.csv): The table of positional stiffness values used for model training  
 -[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
 
-Additional data is available via https://data.mendeley.com/datasets/vw2bb5jy99/2
--[raw_squares]: The images used for training the neural networks  
--[trained_models]: The completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
--[output]: Statistics regarding the training and accuracy for the trained models  
+Additional data is available via https://data.mendeley.com/datasets/vw2bb5jy99/2  
+-**raw_squares**: The images used for training the neural networks  
+-**trained_models**: The completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
+-**output**: Statistics regarding the training and accuracy for the trained models  
 
 
 # System Requirements
@@ -40,11 +41,10 @@ To reproduce manuscript results, the Jupyter notebook used for building the neur
 
 25 completed models are available at https://data.mendeley.com/datasets/vw2bb5jy99/2 via 'trained_models' and output plots can be found in the 'output' directory.
 
+# License
 
+This project is covered under the **MIT License**.
 
-
-
-
-
+# Contact
 
 Please direct any questions to cstashko@berkeley.edu
