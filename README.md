@@ -29,7 +29,9 @@ Additional data is available via https://data.mendeley.com/datasets/vw2bb5jy99/2
 
 # System Requirements
 
-Typical install time to create the conda environment is about 15 minutes. The run time to reproduce the network training should take several hours.
+'STIFMaps' should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using 'STIFMaps'. Within 'STIFMaps.ipynb', the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
+
+Typical install time to create the conda environment is about 15 minutes. The runtime to reproduce the network training should take several hours. These runtimes were generated using a linux computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
 
 # Installation Guide
 
