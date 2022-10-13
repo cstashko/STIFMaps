@@ -1,4 +1,4 @@
-# Spatially Transformed Inferential Force Maps (STIFMaps)
+# __S__patially Transformed Inferential Force Maps (STIFMaps)
 
 ## Contents
 
