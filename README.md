@@ -12,6 +12,8 @@
 -[Contact](#contact)  
 
 # Overview
+STIFMaps predicts the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
+
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
 spatial mechanical heterogeneity and tension-dependent activation of an epithelial 
 to mesenchymal transition within human breast cancers"
@@ -19,6 +21,7 @@ to mesenchymal transition within human breast cancers"
 # Repo Contents
 -[network_training.ipynb](./network_training.ipynb): Jupyter notebook for training the model presented in the manuscript  
 -[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
+-[test_cases](./test_cases): Example images to use with 'STIFMaps.ipynb' to see the pipeline in action
 
 # System Requirements
 
@@ -35,7 +38,7 @@ python3 -m pip install STIFMaps
 
 # Quick Start Guide
 
-Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' using collagen and DAPI images. Example images are available via the [test_images directory](./test_images)  
+Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' using collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
 
 (Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
 (Optional) An additional staining image may be used to compute colocalization between the stain and collagen, DAPI, and predicted stiffness via STIFMaps
