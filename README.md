@@ -25,9 +25,9 @@ to mesenchymal transition within human breast cancers"
 
 # System Requirements
 
-'STIFMaps' should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using 'STIFMaps'. Within 'STIFMaps.ipynb', the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
+STIFMaps should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using STIFMaps. Within 'STIFMaps.ipynb', the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
 
-Typical install time to create the conda environment is about 15 minutes. The runtime to reproduce the network training should take several hours. These runtimes were generated using a linux computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
+Running STIFMaps.ipynb on the example images provided should only take a few minutes (on a computer with 16 GB of RAM, 12 cores@1.10 GHz, and running Ubuntu 18.04). The runtime to reproduce the network training should take several hours (using a computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
 
 # Installation Guide
 
@@ -36,12 +36,12 @@ Create a virtual environment in Python 3.7 or later and install the PyPI package
 python3 -m pip install STIFMaps
 ```
 
-# Quick Start Guide
+# Getting Started
 
-Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' using collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
+Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
 
 (Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
-(Optional) An additional staining image may be used to compute colocalization between the stain and collagen, DAPI, and predicted stiffness via STIFMaps
+(Optional) An additional staining image may be used to compute colocalization between the stain and collagen, DAPI, and predicted stiffness  
 
 # Reproducing Manuscript Results
 
