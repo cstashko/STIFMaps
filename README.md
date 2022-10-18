@@ -6,7 +6,7 @@
 -[Repo Contents](#repo-contents)  
 -[System Requirements](#system-requirements)  
 -[Installation Guide](#installation-guide)  
--[Getting Started](#getting-started)
+-[Getting Started](#getting-started)  
 -[Reproducing Manuscript Results](#reproducing-manuscript-results)  
 -[License](#license)  
 -[Contact](#contact)  
