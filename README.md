@@ -1,6 +1,5 @@
 # Spatially Transformed Inferential Force Maps (STIFMaps)
 
-## Overview
 STIFMaps predicts the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
 
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
@@ -9,7 +8,6 @@ to mesenchymal transition within human breast cancers"
 
 ## Contents
 
--[Overview](#overview)  
 -[Repo Contents](#repo-contents)  
 -[System Requirements](#system-requirements)  
 -[Installation Guide](#installation-guide)  
@@ -41,6 +39,7 @@ python3 -m pip install STIFMaps
 Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
 
 (Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
+
 (Optional) An additional staining image may be used to compute colocalization between the stain and collagen, DAPI, and predicted stiffness  
 
 ## Reproducing Manuscript Results
