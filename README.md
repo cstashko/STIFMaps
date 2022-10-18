@@ -6,6 +6,7 @@
 -[Repo Contents](#repo-contents)  
 -[System Requirements](#system-requirements)  
 -[Installation Guide](#installation-guide)  
+-[Getting Started](#getting-started)
 -[Reproducing Manuscript Results](#reproducing-manuscript-results)  
 -[License](#license)  
 -[Contact](#contact)  
@@ -35,7 +36,14 @@ Typical install time to create the conda environment is about 15 minutes. The ru
 
 # Installation Guide
 
-To generate STIFMaps, create a virtual environment using the 'env.yml' file. Then, refer to the Jupyter notebook 'STIFMaps.ipynb' to create STIFMaps using paired GFP and DAPI images. Additional staining images may optionally be included to evaluate the overlap between stain intensity and STIFMaps.
+Create a virtual environment in Python 3.7 or later and install the PyPI package using the following:
+```bash
+pip install STIFMaps
+```
+
+# Getting Started
+
+
 
 # Reproducing Manuscript Results
 
