@@ -17,7 +17,6 @@ spatial mechanical heterogeneity and tension-dependent activation of an epitheli
 to mesenchymal transition within human breast cancers"
 
 # Repo Contents
--[env.yml](./env.yml): yml file for creating the conda environment to run the STIFMaps code out of a Jupyter notebook  
 -[network_training.ipynb](./network_training.ipynb): Jupyter notebook for training the model presented in the manuscript  
 -[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
 
@@ -31,12 +30,15 @@ Typical install time to create the conda environment is about 15 minutes. The ru
 
 Create a virtual environment in Python 3.7 or later and install the PyPI package using the following:
 ```bash
-pip install STIFMaps
+python3 -m pip install STIFMaps
 ```
 
-# Getting Started
+# Quick Start Guide
 
+Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' using collagen and DAPI images. Example images are available via the [test_images directory](./test_images)  
 
+(Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
+(Optional) An additional staining image may be used to compute colocalization between the stain and collagen, DAPI, and predicted stiffness via STIFMaps
 
 # Reproducing Manuscript Results
 
