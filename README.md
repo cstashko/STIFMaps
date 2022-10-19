@@ -2,6 +2,9 @@
 
 STIFMaps predicts the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
 
+
+![alt text](https://github.com/cstashko/STIFMaps/blob/master/test_cases/example_image_2.png)
+
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
 spatial mechanical heterogeneity and tension-dependent activation of an epithelial 
 to mesenchymal transition within human breast cancers"
