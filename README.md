@@ -23,7 +23,7 @@ to mesenchymal transition within human breast cancers"
 
 ## Repo Contents
 -[network_training.ipynb](./network_training.ipynb): Jupyter notebook for reproducing the trained models presented in the manuscript  
--[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
+-[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of input DAPI and collagen images using trained networks  
 -[test_cases](./test_cases): Example images to use with [STIFMaps.ipynb](./STIFMaps.ipynb) to see the pipeline in action
 
 ## System Requirements
