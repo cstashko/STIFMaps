@@ -5,6 +5,8 @@ STIFMaps predicts the stiffness of breast tissue using the morphology of collage
 
 ![alt text](https://github.com/cstashko/STIFMaps/blob/master/test_cases/example_image_2.png)
 
+Shown is a triple negative breast tumor. Scale bar, 50 um $\mu$ \mu  
+
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
 spatial mechanical heterogeneity and tension-dependent activation of an epithelial 
 to mesenchymal transition within human breast cancers"
