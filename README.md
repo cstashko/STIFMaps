@@ -41,7 +41,7 @@ python3 -m pip install STIFMaps
 
 ## Getting Started
 
-Once the STIFMaps package has been installed, run the 'STIFMaps.ipynb' notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
+Once the STIFMaps package has been installed, run the [STIFMaps.ipynb](./STIFMaps.ipynb) notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
 
 (Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
 
