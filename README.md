@@ -24,11 +24,11 @@ to mesenchymal transition within human breast cancers"
 ## Repo Contents
 -[network_training.ipynb](./network_training.ipynb): Jupyter notebook for reproducing the trained models presented in the manuscript  
 -[STIFMaps.ipynb](./STIFMaps.ipynb): Jupyter notebook for creating STIFMaps out of an input image using trained networks  
--[test_cases](./test_cases): Example images to use with 'STIFMaps.ipynb' to see the pipeline in action
+-[test_cases](./test_cases): Example images to use with [STIFMaps.ipynb](./STIFMaps.ipynb) to see the pipeline in action
 
 ## System Requirements
 
-STIFMaps should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using STIFMaps. Within 'STIFMaps.ipynb', the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
+STIFMaps should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using STIFMaps. Within [STIFMaps.ipynb](./STIFMaps.ipynb), the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
 
 Running STIFMaps.ipynb on the example images provided should only take a few minutes (on a computer with 16 GB of RAM, 12 cores@1.10 GHz, and running Ubuntu 18.04). The runtime to reproduce the network training should take several hours (using a computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
 
