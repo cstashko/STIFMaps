@@ -48,7 +48,7 @@ python3 -m pip install STIFMaps
 
 ## Getting Started
 
-Once the STIFMaps package has been installed, run the [STIFMaps.ipynb](./STIFMaps.ipynb) notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory.  
+Once the STIFMaps package has been installed, run the [STIFMaps.ipynb](./STIFMaps.ipynb) notebook using paired collagen and DAPI images. Example images are available via the [test_cases](./test_cases) directory. Trained models are available at https://data.mendeley.com/datasets/vw2bb5jy99/2
 
 (Optional) A mask image of zeros and ones may be used to indicate which regions of an image should be excluded from analysis  
 
@@ -63,7 +63,7 @@ Data for reproducing manuscript results is available via https://data.mendeley.c
 -**trained_models**: 25 completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
 -**output**: Statistics regarding the training and accuracy for the trained models  
 
-To reproduce manuscript results, the Jupyter notebook used for building the neural networks is available via [network_training.ipynb](./network_training.ipynb). As inputs, the Jupyter notebook needs the elasticity values contained in 'stiffnesses.csv' as well as the image files from 'raw_squares'.  
+To reproduce manuscript results, the Jupyter notebook used for building and training the neural networks is available via [network_training.ipynb](./network_training.ipynb). As inputs, the Jupyter notebook needs the elasticity values contained in 'stiffnesses.csv' as well as the image files from 'raw_squares'.  
 
 ## License
 
