@@ -30,7 +30,7 @@ to mesenchymal transition within human breast cancers"
 
 STIFMaps should run on any standard computer capable of running Jupyter and PyTorch, though 16 GB of RAM is required to enable CUDA optimization. Note that the computer must have enough RAM to support in-memory operations and the extent of memory usage depends on the size of the image that the user is trying to characterize using STIFMaps. Within [STIFMaps.ipynb](./STIFMaps.ipynb), the user may downsample the image prior to stiffness predictions to reduce memory consumption. 
 
-Running STIFMaps.ipynb on the example images provided should only take a few minutes (on a computer with 16 GB of RAM, 12 cores@1.10 GHz, and running Ubuntu 18.04). The runtime to reproduce the network training should take several hours (using a computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
+Running STIFMaps.ipynb on the example images provided should only take a few minutes (on a computer with 16 GB of RAM, 12 cores@1.10 GHz, and running Ubuntu 18.04). The runtime to reproduce training for one network should take about 45 minutes to an hour (using a computer with 64 GB of RAM, 16 cores@3.60 GHz, and running Ubuntu 18.04.
 
 ## Installation Guide
 
@@ -63,7 +63,7 @@ Data for reproducing manuscript results is available via https://data.mendeley.c
 -**trained_models**: 25 completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
 -**output**: Statistics regarding the training and accuracy for the trained models  
 
-To reproduce manuscript results, the Jupyter notebook used for building the neural networks is available via 'network_training.ipynb'. As inputs, the Jupyter notebook needs the elasticity values contained in 'stiffnesses.csv' as well as the image files from 'raw_squares'.  
+To reproduce manuscript results, the Jupyter notebook used for building the neural networks is available via [network_training.ipynb](./network_training.ipynb). As inputs, the Jupyter notebook needs the elasticity values contained in 'stiffnesses.csv' as well as the image files from 'raw_squares'.  
 
 ## License
 
