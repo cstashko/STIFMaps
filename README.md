@@ -3,7 +3,7 @@
 STIFMaps predicts the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
 
 
-![alt text](https://github.com/cstashko/STIFMaps/blob/master/test_cases/example_image_2.png)
+![alt text](https://github.com/cstashko/STIFMaps/blob/master/test_cases/graphical_abstract.png)
 
 Shown is a triple negative breast tumor. Scale bar, 50 microns  
 
