@@ -19,6 +19,7 @@ to mesenchymal transition within human breast cancers"
 -[Getting Started](#getting-started)  
 -[Reproducing Manuscript Results](#reproducing-manuscript-results)  
 -[License](#license)  
+-[Acknowledgements](#acknowledgements)  
 -[Contact](#contact)  
 
 ## Repo Contents
@@ -68,6 +69,10 @@ To reproduce manuscript results, the Jupyter notebook used for building and trai
 ## License
 
 This project is covered under the **MIT License**.
+
+## Acknowledgements
+
+Code for visualizing activation and saliency maps was modified from https://github.com/raghakot/keras-vis/  
 
 ## Contact
 
