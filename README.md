@@ -1,6 +1,6 @@
 # Spatially Transformed Inferential Force Maps (STIFMaps)
 
-STIFMaps predicts the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
+STIFMaps predict the stiffness of breast tissue using the morphology of collagen fibers and nuclei.  
 
 
 ![alt text](https://github.com/cstashko/STIFMaps/blob/master/test_cases/graphical_abstract.png)
