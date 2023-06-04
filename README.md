@@ -62,7 +62,7 @@ Once the STIFMaps package has been installed, run the [STIFMaps.ipynb](./STIFMap
 Data for reproducing manuscript results is available via https://data.mendeley.com/datasets/vw2bb5jy99/2  
 
 -**raw_squares**: The images used for training the neural networks  
--**stiffnesses.csv**: The table of ground truth stiffness values for each square used for model training  
+-**stiffnesses.csv**: The table of ground truth stiffness values for each square used for model training. Note that stiffness values are natural-log transformed to limit the influence of ourliers  
 -**trained_models**: 25 completed, trained models for use with STIFMaps.ipynb to predict elasticity values on an unknown tissue  
 -**output**: Statistics regarding the training and accuracy for the trained models  
 
@@ -78,4 +78,4 @@ Code for visualizing activation and saliency maps was modified from https://gith
 
 ## Contact
 
-Please direct any questions to cstashko@berkeley.edu
+Please direct any questions to cstashko@hmc.edu
