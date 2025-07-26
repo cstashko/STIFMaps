@@ -48,11 +48,6 @@ conda activate STIFMaps
 python3 -m pip install STIFMaps
 ```
 
-Alternatively, a virtual environment can be created from the provided `environment.yml` file:
-```bash
-conda env create -f environment.yml
-```
-
 ## Getting Started
 
 Once the STIFMaps package has been installed, run the [STIFMaps.ipynb](./STIFMaps.ipynb) notebook using paired collagen and DAPI images. Example images are available within the [fixtures](./tests/fixtures) directory. Trained models are available at https://data.mendeley.com/datasets/vw2bb5jy99/2
