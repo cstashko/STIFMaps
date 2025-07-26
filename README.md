@@ -39,14 +39,18 @@ Running STIFMaps.ipynb on the example images provided should only take a few min
 
 It's recommended to run STIFMaps in a designated virtual environment. Create a virtual environment in Python 3.7 or later that includes pip using the following:
 ```bash
-conda create -n STIFMaps python=3.10
-conda install -n STIFMaps pip
+conda create -n STIFMaps python=3.10 pip
 ```
 
 Then enter the virtual environment and install the STIFMaps PyPI package:
 ```bash
 conda activate STIFMaps
 python3 -m pip install STIFMaps
+```
+
+Alternatively, a virtual environment can be created from the provided `environment.yml` file:
+```bash
+conda env create -f environment.yml
 ```
 
 ## Getting Started

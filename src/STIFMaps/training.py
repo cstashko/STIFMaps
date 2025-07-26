@@ -96,8 +96,7 @@ def train_model(df, img_dir, name,
     n_epochs = 100,
     learning_rate = 4e-6,
     weight_decay = 4e-7,
-    # Loss function
-    criterion = nn.MSELoss(),
+    criterion = nn.MSELoss(), # Loss function
     save_directory=False,
     save_visualizations=False):
 
@@ -123,8 +122,7 @@ def train_model(df, img_dir, name,
     In addition to saving output plots (if specified), `train_model` returns the trained network.
     '''
 
-    # Side lengths for the original images and the sidelength used for training
-    side_length_source = 448
+    # Side length used for training (in pixels)
     side_length_crop = 224
 
     # device configuration
