@@ -7,7 +7,7 @@ STIFMaps predict the stiffness of breast tissue using the morphology of collagen
 
 ![Graphical Abstract](./assets/graphical_abstract.png)
 
-Shown is a triple negative breast tumor. Scale bar, 50 microns  
+Shown is a triple negative breast tumor. Scale bar, 50 microns. Stiffness values are natural log-transformed.
 
 Code from the manuscript: "STIFMap employs a convolutional neural network to reveal 
 spatial mechanical heterogeneity and tension-dependent activation of an epithelial 
